@@ -85,3 +85,9 @@ Todos los obstáculos son **objetos sólidos y estáticos**, es decir, no se mue
 ---
 
 ## Algoritmo implementado
+
+### Grilla de Ocupación
+
+### Algoritmo A*
+
+### Conversión de ruta a waypoints

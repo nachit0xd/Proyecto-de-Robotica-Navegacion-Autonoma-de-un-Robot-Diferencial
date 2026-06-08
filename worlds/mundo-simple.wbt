@@ -10,50 +10,48 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/project
 WorldInfo {
 }
 Viewpoint {
-  orientation 0.038393088836029654 0.9972304183568919 -0.06369822158716229 1.6631028303017321
-  position 0.6299127281616441 0.5806529527900612 9.116951604751769
+  orientation 0.7125202095628782 0.00016928649438783833 -0.7016515675935991 3.0958520950871335
+  position 0.38764498439499456 -0.009711366071783897 5.72440435456678
 }
 TexturedBackground {
 }
 TexturedBackgroundLight {
-  castShadows FALSE
 }
 RectangleArena {
-  floorSize 3 3
+  floorSize 1.5 1.5
   floorTileSize 0.1 0.1
   wallHeight 0.2
 }
-SolidBox {
-  translation -0.85 1 0.15
-  name "box(1)"
-  size 0.3 0.3 0.3
-}
-SolidBox {
-  translation -0.2 -0.6 0.15
-  name "box(2)"
-  size 0.3 0.3 0.3
-}
-SolidBox {
-  translation 0.5 0.1 0.15
-  name "box(4)"
-  size 0.3 0.3 0.3
-}
 Wall {
-  translation -0.68 -0.6 0
+  translation -0.34 -0.3 0
   name "wall(1)"
-  size 0.05 1.8 0.2
+  size 0.05 0.9 0.2
 }
 E-puck {
-  translation -1.2 -1.2 0
-  rotation 0 0 1 1.5707903061004251
+  translation 0.573934 -0.570035 2.87206e-05
+  rotation 0 0 1 3.141592653589793
   controller "controlador_e-puck"
 }
 SolidBox {
-  translation -1.1 -0.4 0.15
+  translation 0.3 -0.5 0.05
+  size 0.15 0.15 0.15
+}
+SolidBox {
+  translation -0.18 0.36 0.05
+  name "box(1)"
+  size 0.15 0.15 0.15
+}
+SolidBox {
+  translation -0.5 0.6 0.05
+  name "box(2)"
+  size 0.15 0.15 0.15
+}
+SolidBox {
+  translation -0.55 -0.2 0.05
   name "box(3)"
-  size 0.3 0.3 0.3
+  size 0.15 0.15 0.15
 }
 Wall {
-  translation 0.28 0.6 0
-  size 0.05 1.8 0.2
+  translation 0.14 0.3 0
+  size 0.05 0.9 0.2
 }
